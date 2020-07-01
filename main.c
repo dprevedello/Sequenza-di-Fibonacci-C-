@@ -7,7 +7,7 @@ int main(void) {
         printf("Inserire un numero: ");
         scanf("%d", &numero);
         if(numero <= 0)
-            printf("ERRORE: per il calcolo di Fibonacci il numero deve strettamente positivo.\n\n");
+            printf("ERRORE: per il calcolo di Fibonacci il numero deve essere strettamente positivo.\n\n");
     } while(numero <= 0);
 
     int fibonacci = 1, n_1 = 1, n_2 = 0;
